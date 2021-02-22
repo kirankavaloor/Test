@@ -71,7 +71,7 @@ header,section,footer{
 .loading .page-loading i{
     font-size: 100px;
     text-shadow: -10px 10px 90px;
-    animation: page-loading 2s linear infinite;
+    animation: page-loading 0.6s linear infinite;
 }
 
 @keyframes page-loading {
