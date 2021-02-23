@@ -1,3 +1,9 @@
+/* 
+@media(max-width:1119px){
+    .newnav-container a:hover{
+        margin-left: 0;
+    }
+} */
 
 @media (max-width:768px){
     .header .nav{
@@ -82,7 +88,9 @@
         background-position: center;
     }
    
-    
+    /* .newnav-container a:hover{
+        margin-left: 0;
+    }     */
 
 }
 
