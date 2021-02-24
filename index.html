@@ -189,12 +189,25 @@
                 </div>
             </div>
             <!-- Pre Wedding Video Start -->
-            <div class="section-title justify-content-center" >
+            <!-- <div class="section-title justify-content-center" >
                 <video width="720" height="411" autoplay style="border:10px solid #fb839e" controls >
                     <source src="videos/WhatsApp Video 2021-02-01 at 5.20.45 PM.mp4" type="video/mp4">
                     <source src="videos/WhatsApp Video 2021-02-01 at 5.20.45 PM.mp4" type="video/ogg">
                   </video>
+            </div> -->
+            <div class="section-title justify-content-center">
+                <div class="banner">
+                    <div class="content">
+                        <img src="images/footer.jpg" alt="video">
+                        <a href="#" onclick="toggle();">Watch It</a>
+                    </div>
+                </div>
+                <div class="trailer">
+                    <video src="Wedding.mp4" controls="true"></video>
+                    <i<i class="fas fa-window-close" onclick="toggle();"></i>
+                </div>
             </div>
+           
             <!-- Pre Wedding Video End -->
         </div>
 
@@ -236,14 +249,14 @@
     </section>
 
         <!-- Invitation Video Start -->
-            <section class="container">
+            <!-- <section class="container">
                 <div class="section-title justify-content-center">
                     <video width="740" height="430" style="border:10px solid #fb839e" controls>
                         <source src="videos\Wedding.mp4" type="video/mp4">
                         <source src="videos\Wedding.mp4" type="video/ogg">
                     </video>
                     </div>
-                </section>
+                </section> -->
         <!-- Invitation Video End -->
     
     <!-- Gallery Section Ends -->
@@ -306,6 +319,15 @@
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
+    <script type="text/javascript">
+        function toggle(){
+            var trailer = document.querySelector(".trailer")
+            var video = document.querySelector("video")
+            trailer.classList.toggle("active")
+            video.pause();
+            video.currentTime = 0;
+        }
+    </script>
    
 </body>
 </html>

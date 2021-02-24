@@ -77,10 +77,10 @@
         margin-top: 40px;
     }
 
-    video{
+    /* video{
         width: 600px;
         height: 350px;
-    }
+    } */
 
     .footer{
         /* background-image: url(../images/2.JPG); */
@@ -166,10 +166,10 @@
         margin-top: 40px;
     }
     
-    video{
+    /* video{
         width: 330px;
         height: 170px;
-    }
+    } */
     .newnav-container {
         display: none;
     }
