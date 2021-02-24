@@ -106,16 +106,16 @@
         text-transform: uppercase;
         padding: 15px 0 15px 10px;
         margin: 5px 0;
-        /* width: 180px; */
-        border-radius: 25px;
-        /* letter-spacing: 1.5px; */
+        width: 40px;
+        border-radius: 50%;
+        letter-spacing: 1.5px;
         box-shadow: 2px 2px 16px 0px rgba(0, 0, 0,0.75);
         position: relative;
         /* margin-left: -140px; */
         /* transition: 0.5s ease; */
     }
 
-    .newnav-container-mobile a span{
+    /* .newnav-container-mobile a span{
         float: right;
         width: 50px;
         height: 100%;
@@ -127,8 +127,8 @@
         position:absolute;
         right: 0;
         top:0;
-    }
-    .newnav-container-mobile a span i{
+    } */
+    .newnav-container-mobile a  i{
         font-size: 15px;
     }
 
