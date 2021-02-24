@@ -143,6 +143,20 @@
     .home-section .home-section h1 {
         font-size: 40px;
     }
+    .couple-section .couple{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .couple-section .couple:nth-child(2){
+        margin-top: 40px;
+    }
+    .couple-section .couple:nth-child(2):before{
+        content: none;
+    }
+    .couple-section .couple i.fa-heart{
+        display: none;
+    }
     .contact-section .contact-item {
         flex: 0 0 100%;
         max-width: 100%;
